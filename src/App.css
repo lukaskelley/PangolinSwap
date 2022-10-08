@@ -1,0 +1,61 @@
+body {
+  background: white;
+}
+.fire {
+  font-family: bad;
+  font-size: 70px;
+  color: black;
+  letter-spacing: 0.3rem;
+}
+.swap > button {
+  font-family: bad;
+  font-size: 20px;
+  font-weight: 700;
+  color: black !important;
+}
+.backBtnDiv2 >button > a {
+  font-family: bad;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1 1 0%;
+  overflow: hidden auto;
+  min-height: 100vh;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: #2B2D42;
+  border-left: 3px solid #EDF2F4;
+  border-right: 3px solid #EDF2F4;
+}
+.backBtnDiv1 {
+  width: 80%;
+}
+.backBtnDiv2 {
+  width: 10%;
+}
+.backBtnDiv3 {
+  width: 10%;
+}
+@media (max-width:800px) {
+  .backBtnDiv1 {
+    width: 60%;
+  }
+  .backBtnDiv2 {
+    width: 30%;
+  }
+  .backBtnDiv3 {
+    width: 10%;
+  }
+}
+@font-face {
+    font-family: bad;
+    src: url("./Magical.ttf") format("woff"), url("./Magical.ttf")  format("truetype");
+}
