@@ -1,2 +1,12 @@
-# PangolinSwap
-![image](https://user-images.githubusercontent.com/104538616/194683681-d3db802e-440c-4cd9-b7db-8705d01439cf.png)
+# [Demo](https://swap-widget-cra.vercel.app/)
+
+# Pangolin Swap Widget Example
+
+### `yarn install`
+
+Install all dependancies
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
